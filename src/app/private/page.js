@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Spinner from "@/components/ui/spinner";
 import { Button } from "@/components/ui/button";
+export const dynamic = "force-dynamic";
 
 const PrivatePage = () => {
   const router = useRouter();
