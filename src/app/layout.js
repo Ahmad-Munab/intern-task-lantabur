@@ -9,8 +9,10 @@ export const metadata = {
   title: "Task for Lantabur Softech",
   description: "Task for Lantabur Softech",
 };
+import { cookies } from "next/headers";
 
 export default function RootLayout({ children }) {
+  cookies().getAll();
   return (
     <html lang="en">
       <body
